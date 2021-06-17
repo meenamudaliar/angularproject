@@ -1,0 +1,97 @@
+[{
+      "question":"What amount of bits commonly equals one byte?",
+      "option1":"1",
+      "option2":"2",
+      "option3":"8",
+      "option4":"64",
+      "correctanswer":"8"
+      
+    },
+      {
+        "question":"What does the computer software acronym JVM stand for?",
+        
+        "option1":"Java Vendor Machine",
+        "option2":"Java Virtual Machine",
+        "option3":"Java Visual Machine",
+        "option4":"Just Virtual Machine",
+        "correctanswer":"Java Virtual Machine"
+      },
+        {
+          "question":"Which of these is not a layer in the OSI model for data communications?",
+          "option1":"Application Layer",
+          "option2":"Transport Layer",
+          "option3":"Connection Layer",
+          "option4":"Physical Layer",
+          "correctanswer":"Connection Layer"
+          
+        },
+        {
+            "question": "Which is the part of the computer system that one can physically touch?",
+            "option1":"Hardware",
+            "option2":"Data",
+            "option3":"Operating System",
+            "option4":"Software",
+            "correctanswer":"hardware"
+          },
+          {
+            "question":" Which of the following is not an example of an Operating System?",
+            
+            "option1":"Windows 98",
+            "option2":"BSD Unix",
+            "option3":"Microsoft Office XP",
+            "option4":" Red Hat Linux",
+            "correctanswer":"Microsoft Office XP"
+          },
+          {
+            "question":"Which of the following is not an input device?",
+            
+            "option1":" Mouse",
+            "option2":"VDU",
+            "option3":"Keyboard",
+            "option4":"Light Pen",
+            "correctanswer":"VDU"
+          },
+          
+          {
+            "question":" Which of the following is used to Manage DataBase?",
+            
+            "option1":"Operating System",
+            "option2":"Compiler",
+            "option3":"None of the above",
+            "option4":"DBMS",
+            "correctanswer":"DBMS"
+          },
+          
+          {
+            "question":"What internet protocol was documented in RFC 1459?",
+            "option1":"IRC",
+            "option2":"HTTP",
+            "option3":"HTTPS",
+            "option4":"FTP",
+            "correctanswer":"IRC"
+          },
+          
+          {
+            "question":"Which computer language would you associate Django framework with?",
+            "option1":"C#",
+            "option2":"Python",
+            "option3":"C++",
+            "option4":"Java",
+            "correctanswer":"Python"
+           
+          },
+          
+          
+
+        {
+          "question":"What does the term GPU stand for?",
+          
+          "option1":"Gaming Processor Unit",
+          "option2":"Graphite Producing Unit",
+          "option3":"Graphics Processing Unit",
+          "option4":"Graphical Proprietary Unit",
+          "correctanswer":"Graphics Processing Unit"
+        }
+    ]
+  
+  

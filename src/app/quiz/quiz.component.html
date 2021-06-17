@@ -1,0 +1,42 @@
+<div class="container">
+    <h1 align-center>Welcome to Online Quiz</h1>
+    
+    <div id="questions" *ngIf="questions.length > 0 && num < questions.length; else elseBlock ">
+        
+               <h2 [innerHtml]="questions[num].question"></h2>
+        <ul>
+            <li *ngFor="let ans of questions[num].incorrect_answers">
+                <button [innerHtml]="ans" (click)="checkAnswer(questions[num].correct_answer, ans)" id="go"></button>
+                
+            </li>
+        </ul>
+        
+    </div>
+    <ng-template #elseBlock>
+        <h2>You Scored: {{points}}</h2>
+        <button (click)="start()">Restart Quiz</button>
+        <button (click)="getData()">Review Quiz</button>
+        <div class="container">
+            
+            
+        
+            <div id="output" style="text-align: left;">
+            
+                <div id="review" *ngFor="let reviews of review;let i=index">
+                
+              <h3 [innerHtml]="reviews.question"></h3>
+                <ol type="A">
+                
+                       <li> {{reviews.option1}}</li>
+                    <li> {{reviews.option2}}</li>
+                <li>{{reviews.option3}}</li>
+            <li>{{reviews.option4}}</li></ol><br>
+                        <b>Your Answer :</b> {{output[i]}}<br><br>
+                      <b>Correct answer is:</b> {{reviews.correctanswer}}
+                      
+                    </div>
+                          
+                </div></div>
+                                
+        </ng-template>
+        

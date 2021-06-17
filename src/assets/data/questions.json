@@ -1,0 +1,61 @@
+{
+    
+    "results":[{
+      "question":"What amount of bits commonly equals one byte?",
+      "correct_answer":"8",
+      "incorrect_answers":["1","2","64"]
+    },
+      {
+        "question":"What does the computer software acronym JVM stand for?",
+        "correct_answer":"Java Virtual Machine",
+        "incorrect_answers":["Java Vendor Machine","Java Visual Machine","Just Virtual Machine"]
+      },
+        {
+          "question":"Which of these is not a layer in the OSI model for data communications?",
+          "correct_answer":"Connection Layer",
+          "incorrect_answers":["Application Layer","Transport Layer","Physical Layer"]
+        },
+        {
+            "question": "Which is the part of the computer system that one can physically touch?",
+            "correct_answer":"hardware",
+            "incorrect_answers":["Data","Operating System","Software"]
+          },
+          {
+            "question":" Which of the following is not an example of an Operating System?",
+            "correct_answer":"Microsoft Office XP",
+            "incorrect_answers":["Windows 98","BSD Unix"," Red Hat Linux"]
+          },
+          {
+            "question":"Which of the following is not an input device?",
+            "correct_answer":"VDU",
+            "incorrect_answers":[" Mouse","Keyboard","Light Pen"]
+          },
+          
+          {
+            "question":" Which of the following is used to Manage DataBase?",
+            "correct_answer":"DBMS",
+            "incorrect_answers":["Operating System","Compiler","None of the above"]
+          },
+          
+          {
+            "question":"What internet protocol was documented in RFC 1459?",
+            "correct_answer":"IRC",
+            "incorrect_answers":["HTTP","HTTPS","FTP"]
+          },
+          
+          {
+            "question":"Which computer language would you associate Django framework with?",
+            "correct_answer":"Python",
+            "incorrect_answers":["C#","C++","Java"]
+          },
+          
+          
+
+        {
+          "question":"What does the term GPU stand for?",
+          "correct_answer":"Graphics Processing Unit",
+          "incorrect_answers":["Gaming Processor Unit","Graphite Producing Unit","Graphical Proprietary Unit"]
+        }
+    ]
+  
+  } 

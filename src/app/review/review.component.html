@@ -1,0 +1,14 @@
+<div class="container"><h2>Review of the Quiz</h2>
+
+<div *ngFor="let reviews of review" style="text-align:left">
+  
+  <h3 [innerHtml]="reviews.question"></h3>
+  
+          <input type="radio" disabled/>{{reviews.option1}}
+          <input type="radio" disabled />{{reviews.option2}}
+          <input type="radio" disabled />{{reviews.option3}}
+          <input type="radio" disabled />{{reviews.option4}}<br><br>
+        Correct answer is : {{reviews.correctanswer}}
+        
+  
+     </div></div>
